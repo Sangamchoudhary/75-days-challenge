@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     int lastStoneWeight(vector<int>& stones) {
         multiset<int> arr(stones.begin(),stones.end());
         while(arr.size() > 1){
